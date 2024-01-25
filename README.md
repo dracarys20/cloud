@@ -15,4 +15,15 @@ There are three main types of **cloud computing service models** that you can se
 - gives you ablity to scale elastically, both up or down as needed.
 - hefty upfront costs of buying and maintaining on-prem hardware is eliminated (for public & hybrid  cloud ppl).
 - Large distribution with high tech network facilities makes sure there exsists no down-time and slow responses (again for public & hybrid cloud ppl).  
-- Cloud simplifies backup, disaster recovery, and business continuity. The data will be available in multiple secure locations.
+- Cloud simplifies backup, disaster recovery, and business continuity as the data will be available in multiple locations.
+
+**Amazon Web Services** provides a highly available technology infrastructure platform with multiple locations worldwide. 
+- These locations are composed of regions (seperate geographical area) and Availability Zones (isolated locations in region).
+- Availability Zones are physically separated within a typical metropolitan region and are located in lower-risk flood plains.
+- They are provided with uninterruptable power supply and  redundantly connected to multiple tier-1 transit providers.
+- This enables organizations to place resources and data in multiple locations around the globe. Helping to protect the confidentiality, integrity, and availability of systems and data is of utmost priority to AWS.
+
+
+
+
+
