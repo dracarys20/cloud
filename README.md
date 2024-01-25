@@ -70,9 +70,13 @@ There are three main types of **cloud computing service models** that you can se
 - When instance is launched, you can compute according to your needs, as you would do with on-perm server. (will be charged based on hour the instance runs, not charged when stopped)
 - The instance creation is initated by specifying the amount of virtual hardware dedicated to the instance and the software loaded on the instance.
 
+virtual hardware:
 There available instance types are based on the virtual CPU, memory, storage (size and type) and network performance.
 family types like compute otimized, memory optimized, storage optimized, GPU-based instances. 
 
+software:
+Amazon Machine Image is a template that contains a software configuration (for example, an operating system, an application server, and applications). From an AMI, you launch an instance, which is a copy of the AMI running as a virtual server in the cloud. 
+All are based on x86 OS, either Linux or Windows.
 
 
 
