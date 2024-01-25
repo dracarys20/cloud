@@ -41,7 +41,7 @@ There are three main types of **cloud computing service models** that you can se
 - Purpose: Serverless compute engine for containers.
 - Used for: Running containers without managing the underlying infrastructure. 
 
-### AWS Elastic Beanstack
+#### AWS Elastic Beanstack
 - Purpose: Platform as a Service (PaaS) for deploying and managing applications.
 - Used for: Simply deploy and scale your application without requiring any knowledge of underlying resource.
 
@@ -63,7 +63,15 @@ There are three main types of **cloud computing service models** that you can se
 - Used for: Fast and flexible NoSQL database for applications with variable and high read/write workloads.
 
 
+## EC-2
+- Amazon EC2 is AWS primary web service that provides scalable compute capacity in the cloud. 
+- Compute refers to the amount of computational power required to fulfill your workload.
+- EC2 allows you to aquire compute through launching of virtual servers called instances.
+- When instance is launched, you can compute according to your needs, as you would do with on-perm server. (will be charged based on hour the instance runs, not charged when stopped)
+- The instance creation is initated by specifying the amount of virtual hardware dedicated to the instance and the software loaded on the instance.
 
+There available instance types are based on the virtual CPU, memory, storage (size and type) and network performance.
+family types like compute otimized, memory optimized, storage optimized, GPU-based instances. 
 
 
 
