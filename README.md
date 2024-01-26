@@ -107,3 +107,6 @@ MFA requires you to verify your identity with both something you know and someth
 IAM Policy- effect, service, Amazon Resource Name
 - Resource(IAM User) - arn:aws:iam:us-east-1:123456789012:user/David
 
+Relational database, the data is stored in a predifined structed format like tables. The relationship between the tables are established using keys. verticle scaling. MySQL, Oracle
+
+Non-relational database, the data is stored in various structured formats like graph, file based. Horizantal scaling. MongoDB, Neo4j
