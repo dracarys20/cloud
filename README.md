@@ -109,7 +109,11 @@ IAM Policy- effect, service, Amazon Resource Name
 
 Relational database, the data is stored in a predifined structed format like tables. The relationship between the tables are established using keys. verticle scaling. MySQL, Oracle
 - Online Transaction Processing (OLTP) database system refers to transaction oriented applications that are frequently writing and changing data (e-commerce). Amazon RDS
-- Online Analytical Processing (OLAP) database system is typically the domain of data warehouses and refers to reporting or analyzing large data sets. Amazon Redshift (data wharehouse)
+- Online Analytical Processing (OLAP) database system is typically data warehouses and refers to reporting or analyzing large data sets. Amazon Redshift (data wharehouse)
   
-Non-relational database, the data is stored in various structured formats like graph, file based. Horizantal scaling. MongoDB, Neo4j
+Non-relational database, the data is stored in various structured formats like graph, file based. Horizantal scaling. MongoDB, Neo4j, Amazon Dynamo DB.
+
+Recovery Point Objective (RPO) is defined as the maximum period of data loss that is acceptable in the event of a failure or incident. 
+
+Recovery Time Objective (RTO) is defined as the maximum amount of downtime that is permitted to recover from backup and to resume processing.
 
