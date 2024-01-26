@@ -83,9 +83,9 @@ All are based on x86 OS, either Linux or Windows.
 
 Elastic means flexibility not scalability.
 
-Elastic load balancing distributes traffic accross EC2 instances and control the incoming requests to instances.
+Elastic load balancing distribute's and control the incoming traffic accross multiple EC2 instances in multiple AZ's to acheive greater level of fault tolerance.
 
-Amazon CloudWatch is to monitor resources and applications running on AWS. collects metrics, log files and sets alarm.
+Amazon CloudWatch is to monitor resources and applications running on AWS. collects metrics, log files and create alarm that send notifications.
 
 Auto scaling gives you the advantage to resize the instance capacity up or down based on your variable workloads.
 
@@ -98,4 +98,12 @@ Stick sesssion will enable load balancer to send all requests of the user's sess
 
 You can auto-scale (done by  aws), maual scale (define max,min capacity), schedule scale (when there is predictable schedule), dynamic scale (define parameters that control auto-scale)
 
+Authentication is verifying the identity of a user or system, while authorization is granting or denying access to specific resources based on the authenticated identity.
+
+IAM allows you to control how people and programs are allowed to manipulate your AWS infrastructure.
+
+MFA requires you to verify your identity with both something you know and something you have.
+
+IAM Policy- effect, service, Amazon Resource Name
+- Resource(IAM User) - arn:aws:iam:us-east-1:123456789012:user/David
 
