@@ -64,7 +64,7 @@ There are three main types of **cloud computing service models** that you can se
 
 
 ## EC-2
-- Amazon EC2 is AWS primary web service that provides scalable compute capacity in the cloud. 
+- Amazon EC2 is AWS primary web service that provides resizable compute capacity in the cloud. 
 - Compute refers to the amount of computational power required to fulfill your workload.
 - EC2 allows you to aquire compute through launching of virtual servers called instances.
 - When instance is launched, you can compute according to your needs, as you would do with on-perm server. (will be charged based on hour the instance runs, not charged when stopped)
@@ -80,5 +80,22 @@ All are based on x86 OS, either Linux or Windows.
 
 
 
+
+Elastic means flexibility not scalability.
+
+Elastic load balancing distributes traffic accross EC2 instances and control the incoming requests to instances.
+
+Amazon CloudWatch is to monitor resources and applications running on AWS. collects metrics, log files and sets alarm.
+
+Auto scaling gives you the advantage to resize the instance capacity up or down based on your variable workloads.
+
+
+Health checks are done by elastic load balancing. Health check means to ensure traffic is not routed to unhealthy or failing instances. 
+
+- for examples, you heavily rely on a EC2 instance or a S3 storage and it is experiencing issues. Health check will provide you rel time status about it.
+
+Stick sesssion will enable load balancer to send all requests of the user's session to a specific instance.
+
+You can auto-scale (done by  aws), maual scale (define max,min capacity), schedule scale (when there is predictable schedule), dynamic scale (define parameters that control auto-scale)
 
 
