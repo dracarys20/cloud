@@ -108,5 +108,8 @@ IAM Policy- effect, service, Amazon Resource Name
 - Resource(IAM User) - arn:aws:iam:us-east-1:123456789012:user/David
 
 Relational database, the data is stored in a predifined structed format like tables. The relationship between the tables are established using keys. verticle scaling. MySQL, Oracle
-
+- Online Transaction Processing (OLTP) database system refers to transaction oriented applications that are frequently writing and changing data (e-commerce). Amazon RDS
+- Online Analytical Processing (OLAP) database system is typically the domain of data warehouses and refers to reporting or analyzing large data sets. Amazon Redshift (data wharehouse)
+  
 Non-relational database, the data is stored in various structured formats like graph, file based. Horizantal scaling. MongoDB, Neo4j
+
